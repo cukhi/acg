@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop  = "@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura17"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/luk"/>
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/kolo"/>
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/elipsa"/>
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/prostokat"/>
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/prostokatOkragly"/>
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/luk"/>
+
+        <com.example.acg3.Figura
+            android:id="@+id/figura6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/linia"/>
+    </LinearLayout>
+
+
+</ScrollView>
